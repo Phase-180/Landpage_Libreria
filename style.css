@@ -1,0 +1,121 @@
+/* Barra de navegacion  */
+
+
+
+/* color https://paletton.com/#uid=51V0u0kcQny4M-g8Hs6gsjAl9fY */
+.navbar {
+
+  padding: 0;
+  background-color: #ffffff;
+
+}
+
+.cabecera {
+
+  background: linear-gradient(white, #BCAF70);
+
+}
+
+
+.simple-linear {
+  background: linear-gradient(#DDDFA2, #BCAF70);
+}
+
+section {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+* {
+
+  font-size: 0.9rem;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+
+
+.seccion-oscura {
+
+  color: white;
+  background-color: #1a1a1f;
+
+}
+
+
+
+
+.conocenos {
+  padding: 10px;
+
+
+}
+
+
+
+.conocenos .contenedor {
+  max-width: 1000px;
+  text-align: left;
+}
+
+.hero {
+
+  background-color: #DDDFA2;
+  min-height: 450px;
+  text-align: center;
+
+}
+
+
+.hero-principal {
+  padding: 3rem;
+}
+
+
+.hero-imagen-principal {
+
+  margin: 20px;
+}
+
+.container .row .card {
+
+  padding: 10px;
+  margin: 10px;
+}
+
+.libros {
+
+  padding: 40px;
+
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  font-family: 'Judson', serif;
+  color: #24231d;
+}
+
+.navbar-collapse {
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar-brand {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 700px) {
+  .hero-imagen-principal {
+    width: 900px;
+  }
+
+}
